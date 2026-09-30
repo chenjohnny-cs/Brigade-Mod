@@ -34,11 +34,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
@@ -48,7 +52,7 @@
               "RelativeDocumentMoniker": "Core\\ModPlayers\\BrigadePlayer.cs",
               "ToolTip": "C:\\Users\\Johnny C\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Brigade\\Core\\ModPlayers\\BrigadePlayer.cs",
               "RelativeToolTip": "Core\\ModPlayers\\BrigadePlayer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-30T02:22:23.807Z",
               "EditorCaption": ""
@@ -63,8 +67,7 @@
               "RelativeToolTip": "Content\\Items\\Weapons\\Ranged\\GildedGrenade.cs",
               "ViewState": "AgIAADcAAAAAAAAAAAA6wE0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-30T00:50:30.248Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-30T00:50:30.248Z"
             },
             {
               "$type": "Document",
@@ -76,8 +79,7 @@
               "RelativeToolTip": "Content\\Items\\Weapons\\Melee\\LividBroadsword.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAgwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T23:21:50.658Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-29T23:21:50.658Z"
             },
             {
               "$type": "Document",
@@ -89,21 +91,19 @@
               "RelativeToolTip": "Localization\\en-US_Mods.Brigade.hjson",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-09-29T23:50:47.067Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-29T23:50:47.067Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Brigade",
+              "Title": "Brigade.csproj",
               "DocumentMoniker": "C:\\Users\\Johnny C\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Brigade\\Brigade.csproj",
               "RelativeDocumentMoniker": "Brigade.csproj",
               "ToolTip": "C:\\Users\\Johnny C\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Brigade\\Brigade.csproj",
               "RelativeToolTip": "Brigade.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-09-29T23:18:05.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-29T23:18:05.061Z"
             },
             {
               "$type": "Document",
@@ -115,8 +115,7 @@
               "RelativeToolTip": "Brigade.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T23:16:26.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-29T23:16:26.25Z"
             }
           ]
         }
