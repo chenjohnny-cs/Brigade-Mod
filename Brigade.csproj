@@ -10,7 +10,10 @@
 
 	<!-- References -->
 	<ItemGroup>
-		
+	  <Folder Include="Assets\" />
+	  <Folder Include="Content\Dusts\" />
+	  <Folder Include="Content\Items\Accessories\" />
+	  <Folder Include="Content\NPCs\" />
 	</ItemGroup>
 
 </Project>

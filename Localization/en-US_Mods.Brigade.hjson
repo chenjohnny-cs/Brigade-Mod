@@ -1,3 +1,21 @@
-# This file will automatically update with entries for new content after a build and reload.
-# Please read https://github.com/tModLoader/tModLoader/wiki/Localization to learn more about localization and these files.
+Items: {
+	LividBroadsword: {
+		DisplayName: Livid Broadsword
+		Tooltip: Creates healing mushrooms on critical hits
+	}
 
+	HealingMushroom: {
+		DisplayName: Healing Mushroom
+		Tooltip: ""
+	}
+
+	GildedGrenade: {
+		DisplayName: Gilded Grenade
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	GildedGrenadeProj.DisplayName: Gilded Grenade Proj
+	GildedGrenadeExplosion.DisplayName: Gilded Grenade Explosion
+}

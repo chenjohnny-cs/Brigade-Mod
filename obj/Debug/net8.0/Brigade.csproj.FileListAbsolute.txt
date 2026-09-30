@@ -1,0 +1,14 @@
+C:\Users\Johnny C\Documents\My Games\Terraria\tModLoader\ModSources\Brigade\bin\Debug\net8.0\Brigade.deps.json
+C:\Users\Johnny C\Documents\My Games\Terraria\tModLoader\ModSources\Brigade\bin\Debug\net8.0\Brigade.dll
+C:\Users\Johnny C\Documents\My Games\Terraria\tModLoader\ModSources\Brigade\bin\Debug\net8.0\Brigade.pdb
+C:\Users\Johnny C\Documents\My Games\Terraria\tModLoader\ModSources\Brigade\obj\Debug\net8.0\Brigade.csproj.AssemblyReference.cache
+C:\Users\Johnny C\Documents\My Games\Terraria\tModLoader\ModSources\Brigade\obj\Debug\net8.0\Brigade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Johnny C\Documents\My Games\Terraria\tModLoader\ModSources\Brigade\obj\Debug\net8.0\Brigade.AssemblyInfoInputs.cache
+C:\Users\Johnny C\Documents\My Games\Terraria\tModLoader\ModSources\Brigade\obj\Debug\net8.0\Brigade.AssemblyInfo.cs
+C:\Users\Johnny C\Documents\My Games\Terraria\tModLoader\ModSources\Brigade\obj\Debug\net8.0\Brigade.csproj.CoreCompileInputs.cache
+C:\Users\Johnny C\Documents\My Games\Terraria\tModLoader\ModSources\Brigade\obj\Debug\net8.0\Brigade.sourcelink.json
+C:\Users\Johnny C\Documents\My Games\Terraria\tModLoader\ModSources\Brigade\obj\Debug\net8.0\Brigade.dll
+C:\Users\Johnny C\Documents\My Games\Terraria\tModLoader\ModSources\Brigade\obj\Debug\net8.0\refint\Brigade.dll
+C:\Users\Johnny C\Documents\My Games\Terraria\tModLoader\ModSources\Brigade\obj\Debug\net8.0\Brigade.pdb
+C:\Users\Johnny C\Documents\My Games\Terraria\tModLoader\ModSources\Brigade\obj\Debug\net8.0\ref\Brigade.dll
+C:\Users\Johnny C\Documents\My Games\Terraria\tModLoader\ModSources\Brigade\obj\Debug\net8.0\Brigade.csproj.Up2Date
