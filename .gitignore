@@ -361,10 +361,10 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+Brigade.sln
 obj/project.nuget.cache
 obj/project.assets.json
 obj/Brigade.csproj.nuget.g.targets
 obj/Brigade.csproj.nuget.g.props
-obj/Brigade.csproj.nuget.dgspec.json
-Brigade.sln
 obj/Brigade.csproj.nuget.dgspec.json

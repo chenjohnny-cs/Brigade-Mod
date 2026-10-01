@@ -11,7 +11,7 @@ Items: {
 
 	GildedGrenade: {
 		DisplayName: Gilded Grenade
-		Tooltip: Bounces off enemies dealing initial contact damage, then explodes dealing a second wave of wide AOE damage (inflicts On Fire!).
+		Tooltip: "Bounces off enemies dealing initial contact damage, then explodes dealing a second wave of wide AOE damage. \n(inflicts On Fire!)!"
 	}
 
 	BloodroseStaff: {
