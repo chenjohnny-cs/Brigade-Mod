@@ -209,7 +209,43 @@ namespace Brigade.Content.Items.Weapons.Magic {
         }
     }
 
-    //public class BloodroseStaffSpore : ModProjectile {
+    public class BloodroseStaffSpore : ModProjectile {
+        public override void SetDefaults() {
+            Projectile.width = 13;
+            Projectile.height = 13;
+            Projectile.friendly = true;
 
-    //}
+            Projectile.penetrate = -1;
+            Projectile.timeLeft = 240;
+            Projectile.tileCollide = false;
+
+            Projectile.scale = Main.rand.NextFloat(0.8f, 1.9f);
+            Projectile.rotation = Main.rand.NextFloat(0.28f);
+
+            Projectile.usesIDStaticNPCImmunity = true;
+            Projectile.idStaticNPCHitCooldown = 15;
+
+            Projectile.frame = Main.rand.Next(3);
+        }
+
+        public override void AI() {
+            Projectile.velocity *= 0.96f;
+            Projectile.rotation += Projectile.velocity.Length() + 0.02f;
+        }
+
+        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone) {
+            
+        }
+
+        public override bool PreDraw(ref Color lightColor) {
+            Texture2D tex = ModContent.Request<Texture2D>(Texture).Value;
+            Rectangle frame = tex.Frame(1, 3, 0, Projectile.frame);
+
+            Main.spriteBatch.Draw(tex, Projectile.Center - Main.screenPosition, frame, lightColor, Projectile.rotation, frame.Size() / 2f, Projectile.scale, SpriteEffects.None, 0f);
+
+
+
+            return false;
+        }
+    }
 }
