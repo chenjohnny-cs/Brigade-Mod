@@ -6,11 +6,16 @@ Items: {
 
 	HealingMushroom: {
 		DisplayName: Healing Mushroom
-		Tooltip: ""
+		Tooltip: Regenerates 5 health on pickup.
 	}
 
 	GildedGrenade: {
 		DisplayName: Gilded Grenade
+		Tooltip: Bounces off enemies dealing initial contact damage, then explodes dealing a second wave of wide AOE damage (inflicts On Fire!).
+	}
+
+	BloodroseStaff: {
+		DisplayName: Bloodrose Staff
 		Tooltip: ""
 	}
 }
@@ -18,4 +23,5 @@ Items: {
 Projectiles: {
 	GildedGrenadeProj.DisplayName: Gilded Grenade Proj
 	GildedGrenadeExplosion.DisplayName: Gilded Grenade Explosion
+	BloodroseStaffHoldoutProjectile.DisplayName: Bloodrose Staff Holdout Projectile
 }

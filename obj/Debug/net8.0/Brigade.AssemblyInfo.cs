@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Brigade")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+35f83d8d445dddf279aa7b742f8b49c9e756780f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6410b0ebb7e46bac5b9cb4415c5c54ce37280a38")]
 [assembly: System.Reflection.AssemblyProductAttribute("Brigade")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Brigade")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
