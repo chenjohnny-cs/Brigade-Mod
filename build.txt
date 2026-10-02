@@ -1,0 +1,3 @@
+displayName = Brigade
+author = kanataa_
+version = 0.1
