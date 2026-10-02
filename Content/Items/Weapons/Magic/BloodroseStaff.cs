@@ -243,9 +243,7 @@ namespace Brigade.Content.Items.Weapons.Magic {
 
             Main.spriteBatch.Draw(tex, Projectile.Center - Main.screenPosition, frame, lightColor, Projectile.rotation, frame.Size() / 2f, Projectile.scale, SpriteEffects.None, 0f);
 
-
-
-            return false;
+            return true;
         }
     }
 }
