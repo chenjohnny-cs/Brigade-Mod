@@ -7,6 +7,9 @@ using Terraria.ID;
 using Terraria.ModLoader;
 
 namespace Brigade.Content.Items.Weapons.Magic {
+
+    // This is more of the "hold to fire mechanic" and being able to animate the weapon itself to some degree.  
+
     internal class BloodroseStaff : ModItem {
         public override bool CanUseItem(Player player) => player.ownedProjectileCounts[Item.shoot] <= 0;
         public override void SetDefaults() {

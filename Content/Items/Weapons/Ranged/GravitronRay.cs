@@ -10,6 +10,8 @@ using Terraria.Audio;
 
 namespace Brigade.Content.Items.Weapons.Ranged {
 
+    // This is more of if you want the weapon itself to have an animation when you hold it, not necessarily a "hold to fire" mechanic.
+
     // "Held Projectile Weapons" are weapons that serve as projectiles as well, enabling you to have more control over custom animations than normal items.
     // This weapon will have fire rate ramp up / acceleration and a random chance to fire a second projectile while held.
     // This weapon also manually picks ammo and consumes ammo through Player.PickAmmo
@@ -41,8 +43,7 @@ namespace Brigade.Content.Items.Weapons.Ranged {
 
             Item.shoot = ModContent.ProjectileType<GravitronRayProjectile>();
             Item.useAmmo = AmmoID.Arrow;
-            Item.rare = ItemRarityID.Yellow;
-            
+            Item.rare = ItemRarityID.Yellow;  
 
             Item.noMelee = true;
             Item.noUseGraphic = true;

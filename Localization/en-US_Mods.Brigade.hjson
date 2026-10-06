@@ -20,12 +20,17 @@ Items: {
 
 	BloodroseStaff: {
 		DisplayName: Bloodrose Staff
-		Tooltip: ""
+		Tooltip: "booga booga"
 	}
 
 	GravitronRay: {
 		DisplayName: Gravitron Ray
-		Tooltip: ""
+		Tooltip: "Spins up and fires a special projectile every 3rd shot."
+	}
+
+	StarcallerStaff: {
+		DisplayName: Starcaller Staff
+		Tooltip: "Fires a rain of stars, shifting colors and dealing more damage the longer you hold."
 	}
 }
 
@@ -35,4 +40,5 @@ Projectiles: {
 	BloodroseStaffHoldoutProjectile.DisplayName: Bloodrose Staff Holdout Projectile
 	BloodroseStaffSpore.DisplayName: Bloodrose Staff Spore
 	GravitronRayProjectile.DisplayName: Gravitron Ray Projectile
+	StarcallerStaffHoldoutProjectile.DisplayName: Starcaller Staff Holdout Projectile
 }

@@ -13,7 +13,6 @@
 	  <Folder Include="Content\Dusts\" />
 	  <Folder Include="Content\Items\Accessories\" />
 	  <Folder Include="Assets\" />
-	  <Folder Include="Content\NPCs\" />
 	</ItemGroup>
 
 </Project>
