@@ -1,0 +1,44 @@
+Items: {
+	LividBroadsword: {
+		DisplayName: Livid Broadsword
+		Tooltip: Creates healing mushrooms on critical hits
+	}
+
+	HealingMushroom: {
+		DisplayName: Healing Mushroom
+		Tooltip: Regenerates 5 health on pickup.
+	}
+
+	GildedGrenade: {
+		DisplayName: Gilded Grenade
+		Tooltip:
+			'''
+			Bounces off enemies dealing initial contact damage, then explodes dealing a second wave of wide AOE damage. 
+			(inflicts On Fire!)!
+			'''
+	}
+
+	BloodroseStaff: {
+		DisplayName: Bloodrose Staff
+		Tooltip: "booga booga"
+	}
+
+	GravitronRay: {
+		DisplayName: Gravitron Ray
+		Tooltip: "Spins up and fires a special projectile every 3rd shot."
+	}
+
+	StarcallerStaff: {
+		DisplayName: Starcaller Staff
+		Tooltip: "Fires a rain of stars, shifting colors and dealing more damage the longer you hold."
+	}
+}
+
+Projectiles: {
+	GildedGrenadeProj.DisplayName: Gilded Grenade Proj
+	GildedGrenadeExplosion.DisplayName: Gilded Grenade Explosion
+	BloodroseStaffHoldoutProjectile.DisplayName: Bloodrose Staff Holdout Projectile
+	BloodroseStaffSpore.DisplayName: Bloodrose Staff Spore
+	GravitronRayProjectile.DisplayName: Gravitron Ray Projectile
+	StarcallerStaffHoldoutProjectile.DisplayName: Starcaller Staff Holdout Projectile
+}
