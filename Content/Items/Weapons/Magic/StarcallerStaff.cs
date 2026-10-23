@@ -2,11 +2,11 @@
 using Microsoft.Xna.Framework.Graphics;
 using Terraria;
 using Terraria.Audio;
-using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
 
 namespace Brigade.Content.Items.Weapons.Magic {
+
     internal class StarcallerStaff : ModItem {
         public override void SetDefaults() {
             Item.Size = new Vector2(42, 40);
