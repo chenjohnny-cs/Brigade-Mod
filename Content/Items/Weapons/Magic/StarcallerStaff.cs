@@ -1,5 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using System;
 using Terraria;
 using Terraria.Audio;
 using Terraria.ID;
@@ -30,7 +31,7 @@ namespace Brigade.Content.Items.Weapons.Magic {
             Item.noUseGraphic = true;
             Item.channel = true; // Hold weapon
         }
-
+            
         public override void AddRecipes() {
             CreateRecipe()
                 .AddIngredient(ItemID.Wood, 15)
@@ -118,24 +119,28 @@ namespace Brigade.Content.Items.Weapons.Magic {
 
         public void SpawnProjectile() {
 
-            if (Owner.statMana < 5) {
+            if (!Owner.CheckMana(Owner.HeldItem, -1, true)) {
                 Dying = true;
                 Projectile.timeLeft = 10;
                 return;
-            } else {
-                Owner.statMana -= 5;
             }
 
-            Vector2 vel = new Vector2(0.1f, Projectile.velocity.Y);
+            Vector2 target = Main.MouseWorld;
+
+            // Freely adjust the X and Y pos for more variation and height of the spawn.
+            Vector2 spawnPos = target + new Vector2(Main.rand.NextFloat(-300f, 300f), -600f);
+
+            // The ending multiplier is how fast our bolt will travel to the target.
+            Vector2 vel = (target - spawnPos).SafeNormalize(Vector2.UnitY) * 12f;
 
             SoundEngine.PlaySound(SoundID.Item43 with { PitchVariance = 0.4f, Volume = 0.75f, Pitch = -0.3f }, Projectile.Center);
 
-            if (Timer >= 10) {
-                Projectile.NewProjectile(Projectile.GetSource_FromAI(), Projectile.Center + new Vector2(0, -500), vel,
-                 ProjectileID.AmberBolt, (int) (Projectile.damage * 1.25f), Projectile.knockBack, Projectile.owner);
-            } else {
-                Projectile.NewProjectile(Projectile.GetSource_FromAI(), Projectile.Center + new Vector2(0, -500), vel,
-                    ProjectileID.RubyBolt, Projectile.damage, Projectile.knockBack, Projectile.owner);
+            int projectileType = Timer >= 400 ? ProjectileID.AmberBolt : ProjectileID.RubyBolt;
+            int dmg = Math.Clamp((int) (Projectile.damage * (Timer / 100)), Projectile.damage, 10);
+            Main.NewText(dmg);
+
+           if (Main.myPlayer == Projectile.owner) {
+                Projectile.NewProjectile(Projectile.GetSource_FromAI(), spawnPos, vel, projectileType, dmg, Projectile.knockBack, Projectile.owner);
             }
         }
 

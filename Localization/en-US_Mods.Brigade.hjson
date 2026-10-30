@@ -20,17 +20,22 @@ Items: {
 
 	BloodroseStaff: {
 		DisplayName: Bloodrose Staff
-		Tooltip: "booga booga"
+		Tooltip: booga booga
 	}
 
 	GravitronRay: {
 		DisplayName: Gravitron Ray
-		Tooltip: "Spins up and fires a special projectile every 3rd shot."
+		Tooltip: Spins up and fires a special projectile every 3rd shot.
 	}
 
 	StarcallerStaff: {
 		DisplayName: Starcaller Staff
-		Tooltip: "Fires a rain of stars, shifting colors and dealing more damage the longer you hold."
+		Tooltip: Fires a rain of stars, shifting colors and dealing more damage the longer you hold.
+	}
+
+	GeldSummonItem: {
+		DisplayName: Geld Summon Item
+		Tooltip: ""
 	}
 }
 
@@ -41,4 +46,20 @@ Projectiles: {
 	BloodroseStaffSpore.DisplayName: Bloodrose Staff Spore
 	GravitronRayProjectile.DisplayName: Gravitron Ray Projectile
 	StarcallerStaffHoldoutProjectile.DisplayName: Starcaller Staff Holdout Projectile
+}
+
+NPCs: {
+	GeldBossBody: {
+		BossFightName: Mods.Brigade.NPCs.GeldBossBody.BossFightName
+		DisplayName: Geld Boss Body
+	}
+}
+
+Prefixes: {
+	PowerTooltip: Mods.Brigade.Prefixes.PowerTooltip
+
+	SharpPrefix: {
+		AdditionalTooltip: Mods.Brigade.Prefixes.SharpPrefix.AdditionalTooltip
+		DisplayName: Sharp Prefix
+	}
 }
