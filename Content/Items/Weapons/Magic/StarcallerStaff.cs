@@ -1,4 +1,4 @@
-﻿using Microsoft.Xna.Framework;
+﻿        using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using System;
 using Terraria;
@@ -12,7 +12,7 @@ namespace Brigade.Content.Items.Weapons.Magic {
         public override void SetDefaults() {
             Item.Size = new Vector2(42, 40);
             Item.DamageType = DamageClass.Magic;
-            Item.damage = 5;
+            Item.damage = 2;
             Item.knockBack = 1f;
             Item.mana = 5;
 
@@ -135,8 +135,8 @@ namespace Brigade.Content.Items.Weapons.Magic {
 
             SoundEngine.PlaySound(SoundID.Item43 with { PitchVariance = 0.4f, Volume = 0.75f, Pitch = -0.3f }, Projectile.Center);
 
-            int projectileType = Timer >= 400 ? ProjectileID.AmberBolt : ProjectileID.RubyBolt;
-            int dmg = Math.Clamp((int) (Projectile.damage * (Timer / 100)), Projectile.damage, 10);
+            int projectileType = Timer >= 300 ? ProjectileID.AmberBolt : ProjectileID.RubyBolt;
+            int dmg = Math.Clamp((int) (Projectile.damage * (Timer / 100)), Projectile.damage, 6);
             Main.NewText(dmg);
 
            if (Main.myPlayer == Projectile.owner) {
