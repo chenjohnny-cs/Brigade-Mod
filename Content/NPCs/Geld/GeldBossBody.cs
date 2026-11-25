@@ -16,7 +16,7 @@ using Terraria.Graphics.CameraModifiers;
 
 namespace Brigade.Content.NPCs.Geld {
     [AutoloadBossHead]
-    internal class Geld : ModNPC {
+    internal class GeldBossBody : ModNPC {
         // Boss will have more than two stages, so we will use integers to denote the stage.
 
         public static int secondStageHeadSlot = -1;
