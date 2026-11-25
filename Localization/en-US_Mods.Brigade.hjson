@@ -35,11 +35,16 @@ Items: {
 
 	GeldSummonItem: {
 		DisplayName: Geld Summon Item
-		Tooltip: ""
+		Tooltip: works? or not?
 	}
 
 	GarmBlade: {
-		DisplayName: Garm Blade
+		DisplayName: Garm's Blade
+		Tooltip: A blade fallen from one of the seven Knights of the Brigade.
+	}
+
+	RoyalBow: {
+		DisplayName: Royal Bow
 		Tooltip: ""
 	}
 }

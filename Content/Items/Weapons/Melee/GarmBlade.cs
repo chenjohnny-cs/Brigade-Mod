@@ -56,6 +56,14 @@ namespace Brigade.Content.Items.Weapons.Melee {
                 Projectile.NewProjectile(player.GetSource_OnHit(target), target.Center, dir * projectileSpeed, ModContent.ProjectileType<GarmBladeProjectile>(), dmg, knockback, player.whoAmI, target.whoAmI);
             }
         }
+
+        public override bool? UseItem(Player player) {
+            if (player.whoAmI == Main.myPlayer) {
+                player.ChangeDir(Main.MouseWorld.X > player.Center.X ? 1 : -1);
+            }
+
+            return base.UseItem(player);
+        }
     }
 
     public class GarmBladeProjectile : ModProjectile {

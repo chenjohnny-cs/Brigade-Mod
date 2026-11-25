@@ -7,6 +7,12 @@ namespace Brigade.Core.ModPlayers {
 
         public int shakeTimer;
 
+        public float RangeCritDamageIncrease;
+
+        public override void ResetEffects() {
+            RangeCritDamageIncrease = 0;
+        }
+
         public override void ModifyScreenPosition() {
             if (shakeTimer > 0) {
                 shakeTimer--;
@@ -22,6 +28,12 @@ namespace Brigade.Core.ModPlayers {
                 }
             } else {
                 shakeTimer += amount;
+            }
+        }
+
+        public override void ModifyHitNPCWithProj(Projectile proj, NPC target, ref NPC.HitModifiers modifiers) {
+            if (proj.CountsAsClass(DamageClass.Ranged)) {
+                modifiers.CritDamage += RangeCritDamageIncrease;
             }
         }
     }
